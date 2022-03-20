@@ -1,7 +1,208 @@
-div{
-    border: 1px solid black;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Roboto, sans-serif;
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+    min-width: auto;
+
 }
+
+
 
 .header {
     background-color: #1f2937;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.links > a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding: 85px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    width: 450px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.img {
+    width: 500px;
+    height: 200px;
+}
+
+.signupbtn {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    
+}
+
+.foto {
+    height: 175px;
+    width: 175px;
+    margin-bottom: 12px;
+    border: 1px solid blue;
+    border-radius: 5%;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style:  italic;
+    color: #1f2937;
+    padding: 100px 250px;
+}
+
+.signature{
+    font-weight: 600;
+    justify-content: right;
+    font-style: normal;
+    font-size: 25px;
+    display: flex;
+    flex: 1;
+}
+
+.signup {
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.su-container {
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px 150px;
+    border-radius: 15px;
+}
+
+.su-content {
+    margin-right: 25px;
+}
+
+.su-content p {
+    color: white;
+    font-size: 25px;
+}
+
+.su-title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.btn-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 120px;
+    height: auto;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+.footer p {
+    color: white;
 }
